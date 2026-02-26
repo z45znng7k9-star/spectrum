@@ -1,0 +1,20 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Security on Spectrum</title>
+    <link>http://localhost:1313/blog/security/</link>
+    <description>Recent content in Security on Spectrum</description>
+    <generator>Hugo</generator>
+    <language>en-AU</language>
+    <copyright>Copyright © 2026, Damian Halloran.</copyright>
+    <lastBuildDate>Thu, 26 Feb 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="http://localhost:1313/blog/security/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Why Security Leaders Need to Learn Change Management</title>
+      <link>http://localhost:1313/why-security-leaders-need-to-learn-change-management/</link>
+      <pubDate>Thu, 26 Feb 2026 00:00:00 +0000</pubDate>
+      <guid>http://localhost:1313/why-security-leaders-need-to-learn-change-management/</guid>
+      <description>&lt;p&gt;The CISSP, CISM, CCSP, and AAISM curricula teach you how to manage risk. None of them teach you how to manage people through change. And yet, every meaningful security initiative is fundamentally a change programme.&lt;/p&gt;&#xA;&lt;p&gt;When you roll out a new identity governance platform, you&amp;rsquo;re not just deploying software. You&amp;rsquo;re asking hundreds of people to change how they request access, how they approve it, and how they think about entitlements. When you implement a data loss prevention programme, you&amp;rsquo;re telling people that the way they&amp;rsquo;ve been sharing files for years is no longer acceptable.&lt;/p&gt;</description>
+    </item>
+  </channel>
+</rss>

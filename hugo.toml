@@ -1,0 +1,39 @@
+baseURL = "https://spectrum.id.au"
+theme = 'hugo-bearblog'
+
+title = "Spectrum"
+author = "Damian Halloran"
+copyright = "Copyright © 2026, Damian Halloran."
+languageCode = "en-AU"
+
+enableRobotsTXT = true
+
+disableKinds = ["taxonomy"]
+ignoreErrors = ["error-disable-taxonomy"]
+
+[permalinks]
+  blog = "/:slug/"
+  tags = "/blog/:slug"
+
+[params]
+  description = "Security · Law · Leadership — A practitioner's perspective on cybersecurity, legal thinking, and managing risk in complex organisations."
+  hideMadeWithLine = true
+  enablePostNavigator = true
+  dateFormat = "2 January 2006"
+
+[markup]
+  [markup.highlight]
+    style = 'friendly'
+    lineNos = true
+    lineNumbersInTable = false
+    codeFences = true
+
+[[menus.main]]
+  name = "Blog"
+  url = "/blog/"
+  weight = 10
+
+[[menus.main]]
+  name = "About"
+  url = "/about/"
+  weight = 20
