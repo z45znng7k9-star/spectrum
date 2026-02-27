@@ -22,6 +22,9 @@ ignoreErrors = ["error-disable-taxonomy"]
   dateFormat = "2 January 2006"
 
 [markup]
+  [markup.goldmark]
+    [markup.goldmark.renderer]
+      unsafe = true
   [markup.highlight]
     style = 'friendly'
     lineNos = true

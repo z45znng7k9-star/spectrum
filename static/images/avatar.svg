@@ -1,0 +1,99 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 400 400" width="400" height="400">
+  <defs>
+    <style>
+      .line { fill: none; stroke: #1B3A5C; stroke-linecap: round; stroke-linejoin: round; }
+      .thick { stroke-width: 2.5; }
+      .medium { stroke-width: 2; }
+      .thin { stroke-width: 1.5; }
+      .fill-skin { fill: #f5e6d3; stroke: none; }
+      .fill-glasses { fill: none; stroke: #9e3b3b; stroke-width: 2.8; stroke-linecap: round; stroke-linejoin: round; }
+      .fill-hair { fill: #b8b0a8; stroke: none; }
+      .fill-shirt { fill: #2a2a2a; stroke: none; }
+      .fill-bg { fill: #D5E8F0; }
+    </style>
+  </defs>
+
+  <!-- Background circle -->
+  <circle cx="200" cy="200" r="190" class="fill-bg"/>
+
+  <!-- Neck -->
+  <path d="M170,305 L170,340 Q170,360 185,365 L215,365 Q230,360 230,340 L230,305" class="fill-skin"/>
+
+  <!-- Shirt / shoulders -->
+  <path d="M120,365 Q140,350 170,345 L170,365 L230,365 L230,345 Q260,350 280,365 L280,400 L120,400 Z" class="fill-shirt"/>
+  <!-- V-neck -->
+  <path d="M170,345 L200,375 L230,345" class="line medium" style="stroke:#1a1a1a"/>
+
+  <!-- Head shape -->
+  <path d="M130,220 Q125,170 135,140 Q145,105 170,85 Q190,72 200,70 Q210,72 230,85 Q255,105 265,140 Q275,170 270,220 Q268,260 255,280 Q240,300 220,310 Q205,315 200,315 Q195,315 180,310 Q160,300 145,280 Q132,260 130,220 Z" class="fill-skin"/>
+
+  <!-- Ears -->
+  <path d="M130,195 Q118,195 115,210 Q112,225 118,235 Q124,240 130,235" class="fill-skin"/>
+  <path d="M130,195 Q118,195 115,210 Q112,225 118,235 Q124,240 130,235" class="line thin"/>
+  <path d="M270,195 Q282,195 285,210 Q288,225 282,235 Q276,240 270,235" class="fill-skin"/>
+  <path d="M270,195 Q282,195 285,210 Q288,225 282,235 Q276,240 270,235" class="line thin"/>
+
+  <!-- Hair - short, receding, grey-ish -->
+  <path d="M140,145 Q145,100 170,82 Q190,68 200,66 Q210,68 230,82 Q255,100 260,145 Q262,130 258,110 Q250,85 230,72 Q210,60 200,58 Q190,60 170,72 Q150,85 142,110 Q138,130 140,145 Z" class="fill-hair"/>
+  <!-- Hair texture lines -->
+  <path d="M155,90 Q160,78 175,72" class="line thin" style="stroke:#a09890; opacity:0.6"/>
+  <path d="M175,75 Q190,65 205,65" class="line thin" style="stroke:#a09890; opacity:0.6"/>
+  <path d="M220,68 Q240,78 248,95" class="line thin" style="stroke:#a09890; opacity:0.6"/>
+  <!-- Side hair -->
+  <path d="M128,175 Q125,160 130,145 Q133,135 140,128" class="line thin" style="stroke:#a09890"/>
+  <path d="M272,175 Q275,160 270,145 Q267,135 260,128" class="line thin" style="stroke:#a09890"/>
+
+  <!-- Eyebrows -->
+  <path d="M152,170 Q160,163 175,165 Q182,166 188,170" class="line medium"/>
+  <path d="M212,170 Q218,163 233,165 Q240,166 248,170" class="line medium"/>
+
+  <!-- Glasses - red/burgundy rectangular frames -->
+  <!-- Left lens -->
+  <rect x="148" y="178" width="46" height="32" rx="6" ry="6" class="fill-glasses"/>
+  <!-- Right lens -->
+  <rect x="206" y="178" width="46" height="32" rx="6" ry="6" class="fill-glasses"/>
+  <!-- Bridge -->
+  <path d="M194,192 Q200,188 206,192" class="fill-glasses" style="stroke-width:2.2"/>
+  <!-- Temple arms -->
+  <path d="M148,188 L130,186" class="fill-glasses" style="stroke-width:2"/>
+  <path d="M252,188 L270,186" class="fill-glasses" style="stroke-width:2"/>
+
+  <!-- Eyes behind glasses -->
+  <ellipse cx="171" cy="194" rx="10" ry="7" class="line thin"/>
+  <circle cx="173" cy="193" r="4" fill="#5b8faa" stroke="none"/>
+  <circle cx="174" cy="192" r="1.8" fill="#1B3A5C" stroke="none"/>
+  <circle cx="176" cy="190" r="1" fill="white" stroke="none"/>
+
+  <ellipse cx="229" cy="194" rx="10" ry="7" class="line thin"/>
+  <circle cx="231" cy="193" r="4" fill="#5b8faa" stroke="none"/>
+  <circle cx="232" cy="192" r="1.8" fill="#1B3A5C" stroke="none"/>
+  <circle cx="234" cy="190" r="1" fill="white" stroke="none"/>
+
+  <!-- Nose -->
+  <path d="M198,200 Q195,220 190,235 Q188,240 192,243 Q198,246 204,246 Q210,246 212,243 Q215,240 210,235 Q205,220 202,200" class="line thin"/>
+
+  <!-- Big warm smile -->
+  <path d="M160,262 Q170,280 185,286 Q195,290 200,290 Q205,290 215,286 Q230,280 240,262" class="line thick"/>
+  <!-- Teeth showing in smile -->
+  <path d="M168,266 Q175,272 185,276 Q195,279 200,279 Q205,279 215,276 Q225,272 232,266" fill="white" stroke="none"/>
+  <path d="M168,266 Q175,272 185,276 Q195,279 200,279 Q205,279 215,276 Q225,272 232,266" class="line thin" style="stroke-width:1"/>
+  <!-- Tooth lines -->
+  <line x1="185" y1="266" x2="185" y2="276" class="line thin" style="stroke-width:0.8; opacity:0.3"/>
+  <line x1="193" y1="265" x2="193" y2="278" class="line thin" style="stroke-width:0.8; opacity:0.3"/>
+  <line x1="200" y1="265" x2="200" y2="279" class="line thin" style="stroke-width:0.8; opacity:0.3"/>
+  <line x1="207" y1="265" x2="207" y2="278" class="line thin" style="stroke-width:0.8; opacity:0.3"/>
+  <line x1="215" y1="266" x2="215" y2="276" class="line thin" style="stroke-width:0.8; opacity:0.3"/>
+
+  <!-- Smile lines / laugh lines -->
+  <path d="M152,250 Q155,265 162,275" class="line thin" style="opacity:0.4"/>
+  <path d="M248,250 Q245,265 238,275" class="line thin" style="opacity:0.4"/>
+
+  <!-- Chin line -->
+  <path d="M185,300 Q200,310 215,300" class="line thin" style="opacity:0.3"/>
+
+  <!-- Crow's feet - character lines by eyes -->
+  <path d="M145,185 Q140,182 136,178" class="line thin" style="opacity:0.3"/>
+  <path d="M145,190 Q139,190 135,188" class="line thin" style="opacity:0.3"/>
+  <path d="M255,185 Q260,182 264,178" class="line thin" style="opacity:0.3"/>
+  <path d="M255,190 Q261,190 265,188" class="line thin" style="opacity:0.3"/>
+</svg>
