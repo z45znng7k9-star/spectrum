@@ -1,0 +1,19 @@
+{{ define "main" }}
+<img src="/images/avatar.svg" alt="Damian Halloran — line art portrait" class="about-avatar">
+
+<p>I'm a cybersecurity leader and postgraduate law student based in Melbourne. By day, I manage information security and risk for a major infrastructure authority. By night (well, evenings and weekends), I'm working through a Juris Doctor at RMIT University.</p>
+
+<p>This blog sits at the intersection of those two worlds — security leadership, legal thinking, and the messy reality of managing risk in complex organisations. I hold CISM, CISSP, CCSP, and AAISM certifications, and I'm interested in the gap between how we <em>should</em> manage change in security programmes and how we actually do it.</p>
+
+<hr>
+
+{{ .Content }}
+
+<h2>Recent Posts</h2>
+{{ range ( where site.RegularPages "Section" "blog" | first 10 ) }}
+<p>
+  <a href="{{ .RelPermalink }}">{{ .Title }}</a> —
+  <time datetime='{{ .Date.Format "2006-01-02" }}'>{{ .Date.Format (default "2 January 2006" site.Params.dateFormat) }}</time>
+</p>
+{{ end }}
+{{ end }}

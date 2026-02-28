@@ -68,6 +68,61 @@
     margin: 0 0 1.5em 0;
   }
 
+  /* Organisations table */
+  .org-table {
+    width: 100%;
+    border-collapse: collapse;
+    font-size: 0.9em;
+    margin-top: 1.5em;
+  }
+
+  .org-table th {
+    text-align: left;
+    padding: 0.6em 0.8em;
+    border-bottom: 2px solid #2E75B6;
+    font-size: 0.85em;
+    color: var(--heading-color);
+  }
+
+  .org-table td {
+    padding: 0.45em 0.8em;
+    border-bottom: 1px solid rgba(0,0,0,0.06);
+    vertical-align: top;
+  }
+
+  .org-table img.favicon {
+    width: 16px;
+    height: 16px;
+    vertical-align: middle;
+    margin-right: 5px;
+    border-radius: 2px;
+    position: relative;
+    top: -1px;
+  }
+
+  @media (prefers-color-scheme: dark) {
+    .org-table th {
+      border-bottom-color: #8cc2dd;
+    }
+    .org-table td {
+      border-bottom-color: rgba(255,255,255,0.06);
+    }
+  }
+
+  @media (max-width: 600px) {
+    .org-table, .org-table thead, .org-table tbody, .org-table tr, .org-table th, .org-table td {
+      display: block;
+      width: 100%;
+    }
+    .org-table thead { display: none; }
+    .org-table td {
+      padding: 0.3em 0;
+      border-bottom: none;
+    }
+    .org-table td:empty { display: none; }
+    .org-table tr { border-bottom: 1px solid rgba(0,0,0,0.06); padding: 0.3em 0; }
+  }
+
   /* Nav spacing */
   nav a {
     margin-right: 12px;
