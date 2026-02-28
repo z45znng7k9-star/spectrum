@@ -40,3 +40,8 @@ ignoreErrors = ["error-disable-taxonomy"]
   name = "About"
   url = "/about/"
   weight = 20
+
+[[menus.main]]
+  name = "Contact"
+  url = "/contact/"
+  weight = 30
